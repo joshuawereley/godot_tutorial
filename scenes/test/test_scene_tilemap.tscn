@@ -2,4 +2,6 @@
 
 [node name="TestSceneTilemap" type="Node2D"]
 
-[node name="Node2D" type="Node2D" parent="."]
+[node name="GameTilemap" type="Node2D" parent="."]
+
+[node name="Water" type="TileMapLayer" parent="GameTilemap"]
